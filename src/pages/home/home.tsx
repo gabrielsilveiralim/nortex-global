@@ -34,7 +34,7 @@ export default function Home() {
     return (
         <>
         <Header />
-        <main className='h-full w-full bg-[#010919]'>
+        <main className='h-full w-full bg-[#010910]'>
           <section className='mx-auto w-full max-w-7xl px-4 py-8'>
 
             <div className='grid grid-cols-1 gap-5 sm:grid-cols-2 xl:grid-cols-4'> 

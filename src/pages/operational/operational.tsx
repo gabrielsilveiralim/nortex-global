@@ -86,7 +86,7 @@ export default function Operational() {
     return (
         <>
         <Header />
-        <main className='h-full w-full bg-[#010919]'>              
+        <main className='h-full w-full bg-[#010910]'>              
           <section className='mx-auto w-full max-w-7xl px-4 py-16'>
             <div className='overflow-x-auto rounded-2xl border border-[#1A2333] bg-[#07111F] p-6'>
                <div className='mb-6 flex items-center justify-between'>
