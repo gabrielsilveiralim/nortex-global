@@ -1,4 +1,4 @@
-import Header from "../../components/layout/Header";
+import Sidebar from "../../components/layout/Sidebar";
 import Footer from "../../components/layout/Footer";
 import { BrainCircuit, TrendingUp, ShieldAlert, Bot, Radar, Cpu } from "lucide-react";
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from "recharts";
@@ -54,8 +54,9 @@ const aiCards = [
 export default function ia() {
   return (
     <>
-      <Header />
-      <main className='h-full bg-[#010910]'>
+    <div className='flex'>
+      <Sidebar />
+      <main className='flex-1 ml-20 lg:ml-56 bg-[#010910]'>
         <section className='mx-auto w-full max-w-7xl px-4 py-16'>
           <div className='grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3'>
 
@@ -108,6 +109,7 @@ export default function ia() {
           </div>
         </section>
       </main>
+    </div>
       <Footer />
     </>
   );

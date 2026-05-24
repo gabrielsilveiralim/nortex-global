@@ -1,4 +1,4 @@
-import Header from "../../components/layout/Header";
+import Sidebar from "../../components/layout/Sidebar";
 import Footer from "../../components/layout/Footer";
 import { Wifi, WifiOff, Thermometer, Gauge,AlertTriangle } from "lucide-react";
 
@@ -40,8 +40,9 @@ const sensors = [
 export default function Iot() {
   return (
     <>
-      <Header />
-      <main className='h-full bg-[#010910]'>
+    <div className='flex'> 
+      <Sidebar />
+      <main className='flex-1 ml-20 lg:ml-56 bg-[#010910]'>
         <section className='mx-auto w-full max-w-7xl px-4 py-16'>
           <div className='grid grid-cols-2 gap-5 lg:grid-cols-4'>
             <div className='rounded-2xl border border-[#1A2333] bg-[#07111F] p-5'>
@@ -125,7 +126,7 @@ export default function Iot() {
           </div>
         </section>
       </main>
-
+    </div>
       <Footer />
     </>
   );

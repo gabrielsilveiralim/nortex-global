@@ -1,12 +1,12 @@
 
 export default function Footer() {
     return (
-        <footer className='border-t border-[#5F6B7A]/10 bg-[#010910]'>
+        <footer className='border-t border-[#5F6B7A]/10 ml-20 lg:ml-54 bg-[#010910]'>
             <div className='mx-auto flex w-full max-w-7xl flex-col gap-2 px-6 py-6 lg:flex-row lg:items-start lg:justify-between'>
                 <div className='max-w-md'>
                     <div className='flex items-center gap-4'>
                             <h1 className='text-2xl font-bold text-white'> Nor<span className='text-[#1b6eb7]'>tex</span> </h1>
-                            <span className='text-[10px] tracking-[0.3em] text-[#5F6B7A]'> SECURITY INTELLIGENCE </span>
+                            <span className='text-xs tracking-[0.3em] text-[#5F6B7A]'> SECURITY INTELLIGENCE </span>
                     </div>
                     <p className='mt-6 text-sm leading-7 text-[#8B98A5]'>
                         Plataforma inteligente voltada para monitoramento,
